@@ -11,3 +11,5 @@ writeCode
 1. Create another `html` named `external.html` file and a JavaScript (.js) file named `script.js`
 2. Using script tags and `src` attribute connect the `external.html` file with `script.js`
 3. Add a code to `alert` the message `I am learning JavaScript` in the `script.js` file
+
+
