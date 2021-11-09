@@ -20,8 +20,8 @@ alert (`I m ${firstName} ${lastName} of Winterfell`);
   - Alert message saying `I am [username] and my bio is [bio]`. Replace square brackets with the value of variable.
   - Alert the message `I'm Arya Stark of Winterfell` using the variable name firstName and lastName.
 */
-alert("I +" "+ m + username + " " + and + " "+ my + " " + bio + " " + is + " "+ bio "); 
-alert("I +" "+ m + firstName + " " + lastNmae + " "+ of + " " + Winterfell ");
+alert(' I + " "+ m + username + " " + and + " "+ my + " " + bio + " " + is + " "+ bio '); 
+alert(' I + " "+ m + firstName + " " + lastNmae + " "+ of + " " + Winterfell ');
 
 let amount = 200;
 const taxPercent = 10;
@@ -42,4 +42,4 @@ the tax amount is [${amount}*${taxPercent}]/100')
   - Above message should be in two lines
 */
 
-alert("The + " " total +" " amount + " " + is + " "+ amount /n the +" " + new + " " ");
+alert('The + " " total +" " amount + " " + is + " "+ amount /n the +" " + new + " " ');
