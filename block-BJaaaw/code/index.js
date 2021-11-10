@@ -50,7 +50,7 @@ alert(`All men  must die`);
 }
 
 // 5. Convert the above code using`?` terniary operator
-//(houseName==`stark`) ? alert(`Winter is comimg`): ? ((houseName==`lannister`) ? alert(`A lannister always pays his debt`) :alert(`All men  must die`););
+houseName===`stark` ? alert(`Winter is comimg`): houseName===`lannister` ? alert(`A lannister always pays his debt`) :alert(`All men  must die`);
 
 
 // Switch
