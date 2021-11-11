@@ -40,13 +40,26 @@ console.log(a);
 
 // 5. Concat all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)
 let c=5;
+let d="";
 while(c>=0)
 {
-console.log(""+c);
+d+=c;
 c=c-1;
 }
+console.log(d);
 
 // 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
+let e=10;
+let f="";
+while(e>=0)
+{
+if (e%2==0)
+{
+f+=e;
+}
+e=e-1;
+}
+console.log(f);
 
 // Comparisoin
 
@@ -64,12 +77,10 @@ Example:
 */
 let numX=Number(prompt(`Enter first number`));
 let numY=Number(prompt(`Enter second number`));
-switch(true)
-{
-case (numX===numY):alert(`true`)
-break;
-case(numX!==numY):alert(`false`)
-break;
-default
+if(isNaN(numX) || isNaN(numY)){
+alert(`enter valid value`);
 }
-
+else 
+{
+alert(numX===numY);
+}
